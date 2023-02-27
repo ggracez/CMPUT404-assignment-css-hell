@@ -1,0 +1,72 @@
+:root {
+    --color-background: yellow;
+    --color-secondary: blue;
+}
+
+body {
+    background-color: var(--color-background);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    display: flex;
+    font-size: larger;
+}
+
+img {
+    max-width: 15em;
+    border: 0.5em solid var(--color-secondary);
+    transform: rotate(45deg);
+    margin-left: -5em;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+ul li {
+    margin: -10px 0px; 
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#bigname {
+    font-style: italic;
+    font-size: 2em;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#about {
+    max-width: 30em;
+}
+
+.sidebar {
+    height: fit-content;
+    width: fit-content;
+    margin-top: -2em;
+    margin-left: 3em;
+    padding: 0.5em 3em 1em 1em;
+    background-color: var(--color-secondary);
+    
+}
+
+.homepage {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+.photo {
+    padding-right: 3em;
+}
