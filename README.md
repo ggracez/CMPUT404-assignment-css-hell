@@ -15,10 +15,11 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 License/Copyright
 =================
 
-Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
-4.0 unported license. Attribution should be a hyperlink to the
-repository and (C) 2013 Abram Hindle visibile in the text.
+Textual content is copyright Abram Hindle and Grace Zhu (C) 2013-2023 
+under the CC-BY-SA 4.0 unported license. Attribution should be a hyperlink to the
+repository and (C) 2013-2023 Abram Hindle and Grace Zhu visible in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-
+The Project Gutenberg HTML files were modified to include the `styles.css` stylesheet.
+Aside from that, no other modifications were made.
