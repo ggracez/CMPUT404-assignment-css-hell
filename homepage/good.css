@@ -6,13 +6,13 @@
 body {
     background-color: var(--color-background);
     font-family: "Montserrat", sans-serif;
-    margin: 2em;
+    margin: 2rem;
     display: flex;
 }
 
 img {
-    max-width: 15em;
-    border: 0.5em solid var(--color-lightgray)
+    max-width: 15rem;
+    border: 0.5rem solid var(--color-lightgray)
 }
 
 h2 {
@@ -25,7 +25,7 @@ ul li {
 
 #bigname {
     font-style: italic;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 #top {
@@ -35,15 +35,15 @@ ul li {
 }
 
 #about {
-    max-width: 30em;
+    max-width: 30rem;
 }
 
 .sidebar {
     height: fit-content;
     width: fit-content;
-    margin-top: 4em;
-    margin-left: 3em;
-    padding: 0.5em 3em 1em 1em;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    padding: 0.5rem 3rem 1rem 1rem;
     background-color: var(--color-lightgray);
     
 }
@@ -55,5 +55,5 @@ ul li {
 }
 
 .photo {
-    padding-right: 3em;
+    padding-right: 3rem;
 }
