@@ -1,0 +1,23 @@
+:root {
+    --color-background: #e7c593;
+    --color-gray: rgb(66, 66, 66);
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+a {
+    color: var(--color-gray);
+    background-color: var(--color-background) !important;
+}
+
+img {
+    border: 0.5rem solid var(--color-gray);
+}
+
+span.caption {
+    white-space: pre;
+    text-align: center;
+    font-style: italic;
+}
